@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #111;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+footer{
+    background-color: #111;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socailicon
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.socailicon a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.socailicon a i{
+    font-size: 2em;
+    opacity: 0.9;
+    color:rgb(132, 126, 123);
+}
+.socailicon a:hover{
+    background-color: #111;
+    transition: 0.5s;
+
+}
+.socailicon a:hover i{
+    background-color: #fff;
+    transition: 0.5s;
+}
+.footernav
+{
+    margin: 30px 0px;
+
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+.footernav ul li a{
+    margin: 20px;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footernav ul li a:hover{
+     opacity: 1;
+
+}
+.footerbottom{
+    background-color:  #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer
+{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.7;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media(max-width:700px){
+    .footernav ul{
+        flex-direction: column;
+
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}

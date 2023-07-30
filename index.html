@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Portfo<span id="span11">lio</span></div>
+        <div class="right">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#project-container">PROJECT</a></li>
+            <li><a href="#footercontainer">CONTACT ME</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hello,I am <span class="blue">Badal</span> .
+          <div>i am a passionate </div>
+          <span id="element2"></span>
+        </div>
+        <div class="rightsection">
+          <img src="bff.png" alt="">
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="maxwidth">
+          <h2 class="title">ABOUT ME</h2>
+            <div class="about-content">
+                <div class="column left">
+                   <img src="bff.png" alt="">
+                </div>
+                <div class="column right">
+                  <div class="text">I'm Badal and I'm a <span id="element"></span></div>
+                  <p>I,m Badal Prakash Narayan. I am always energetic and eager to learn new skills and I have experience working as part of a team and individually and I am flexible in my working hours, being able to work evenings and weekends and I have successfully met deadlines on every project and I’ve worked on and I focused much of my time and energy on driving improvements</p>
+                  <a href="#">DOWNLOAD CV</a>
+                </div>
+    
+            </div>
+          </div>
+    </section>
+    <div class="project-container" id="project-container">
+      <div class="head1">
+          <h1>PROJECTS</h1>
+      </div>
+      <div class="cardds">
+          <div class="cards">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <video width="300px" height="300px" autoplay muted controls loop>
+                      <source src="lfr.mp4" type="video/mp4" />
+                    </video>
+                    <h1 id="herr">LINE FOLLOWING</h1>
+                    <span id="sp1">ROBOT</span>
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>LINE FOLLOWING ROBOT</h1>
+                    <p id="p1">
+                      The line follower robot is a mobile machine that can detect and
+                      follow the line drawn on the floor. the path is predefined and can
+                      be either visible like a black line on a white surface
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img id="bt" src="bt.gif" alt="Avatar" />
+                    <p id="bt2">BLUETOOTH CONTROL</p>
+                    <span id="sp1">ROBOT</span>
+                  </div>
+                  <div class="flip-card-back">
+                    <h1>BLUETOOTH CONTROLLED ROBOT</h1>
+                    
+                    <p id="p1">Bluetooth controlled Robot is controlled by using Android mobile phone only needs to touch button in android phone to control the Robot in forward, backward, left and right directions</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+      </div>
+  <!-- <br>
+  <br>
+      <hr> -->
+      <!-- <section class="proje1">
+        <div>
+            <h1 >SKILLS</h1>
+        </div>
+      <section class="thirdsection">
+        <div>
+          <ul>
+            <li>C++</li>
+            <li>WEB DEVELOPMENT</li>
+            <li>PYTHON</li>
+          </ul>
+        </div>
+      </section> -->
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Graphic Designer'],
+        typeSpeed: 75,backSpeed: 0,
+        loop: true
+      });
+      var typed = new Typed('#element2', {
+        strings: ['Web Developer', 'Graphic Designer'],
+        typeSpeed: 80,
+        backSpeed: 0,
+        loop: true
+      });
+    </script>
+    <!-- <hr> -->
+    <footer>
+      <div class="footercontainer" id="footercontainer">
+          <div class="socailicon">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+              <a href="">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="">
+                  <i class="fa-brands fa-snapchat"></i>
+              </a>
+          </div>
+          <div class="footernav">
+              <ul>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="projects.html">PROJECT</a></li>
+                  <li><a href="#">CONTACT ME</a></li>
+                </ul>
+          </div>
+      </div>
+      <div class="footerbottom">
+          Copyright &copy;2023; Designed by <span class="designer">Badal</span>
+      </div>
+
+  </footer>
+  
+  </body>
+</html>
